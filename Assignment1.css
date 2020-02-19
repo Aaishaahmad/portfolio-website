@@ -1,0 +1,32 @@
+   @import url("https://fonts.googleapis.com/css?family=Great+Vibes&display=swap");
+            .hd1{
+                color:white;
+                font-size:30px;
+                
+            }
+            .hd2{
+                font-family:"Great Vibes";
+                font-size:30px;
+            }
+            .fo
+                { font-weight:bold;
+                font-size:30px;
+                }
+            .IT{
+                font-style:Italic;
+                font-size:20px;
+            }
+            .P{
+                font-size:20px;
+            }
+            .Head{
+                font-size:40px;
+                color:rgb(10,10,100);
+            }
+            .sp{
+                font-size:20px;
+            }
+            .grad{
+  background-image: repeating-linear-gradient(violet,brown);
+
+            }
