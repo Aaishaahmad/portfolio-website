@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Monofett|Monoton|Oswald|Roboto&display=swap');
 .d1{
           background-color:white;
-         width:31%;
+         width:30%;
        display:inline-block;
-      margin-right: 3.5%;
+      margin-right:5%;
       border-radius:20px;
       }
       .h1{
@@ -16,10 +16,19 @@
       .d3{
         border-radius:20px;
           background-color:white;
-         width:31%;
+         width:30%;
        display:inline-block;
       }
       .p1{
         padding-left:10px;
+      }
+      .my{
+        font-weight:normal;
+      }
+      .border{
+         border-bottom:2px solid Dodgerblue;
+      }
+      #body{
+        background-color:lightgrey;
       }
     
