@@ -1,0 +1,140 @@
+/* Write your CSS here */
+   @import url('https://fonts.googleapis.com/css?family=Monofett|Monoton|Oswald|Roboto&display=swap');
+     .Heading2{
+       font-weight:bold;
+       text-align:center;
+       font-family:"Roboto";
+     }
+     .Paragraph{
+       text-align:center;
+     }
+     body{
+       background:lightblue;
+     }
+     .Tech{
+       display:inline-block;
+       padding:10px;
+       background:Dodgerblue;
+       border-radius:20px;
+       text-align:center;
+       margin-right:1%;
+     }
+     .Management{
+       display:inline-block;
+       padding:10px;
+      border:1px solid black;
+       border-radius:20px;
+       text-align:center;
+       margin-right:1%;
+       background:white;
+       color:grey;
+     }  
+     .Higher{
+         display:inline-block;
+         background:white;
+         padding:10px;
+         margin-right:1%;
+          text-align:center;
+          border:2px solid black;
+       border-radius:20px;
+      
+     }
+     .Entre{
+         display:inline-block;
+         background:white;
+         padding:10px;
+          text-align:center;
+          border:2px solid black;
+       border-radius:20px;
+      
+     }
+     .Fullstack
+     {
+         display:inline-block;
+         width:29%;
+         height:30px;
+         border-left:5px solid blue;
+         margin-right:2%;
+         background:white;
+         border-radius:5px;
+         padding:10px;
+    
+         
+     }
+     .AIML{
+         width:29%;
+         height:30px;
+         border-left:5px solid blue;
+         background:white;
+         border-radius:5px;
+         display:inline-block;
+         padding:10px;
+     }
+     .VR{
+          width:29%;
+         height:30px;
+         border-left:5px solid lightgrey;
+         background:white;
+         border-radius:5px;
+         display:inline-block;
+         padding:10px;
+         margin-right:2%;
+     }
+     .Iot
+     {
+         width:29%;
+         height:30px;
+         border-left:5px solid lightgrey;
+         background:white;
+         border-radius:5px;
+         display:inline-block;
+         padding:10px;
+     }
+     .Cyber{
+         width:35%;
+         height:30px;
+         border-left:5px solid lightgrey;
+         background:white;
+         border-radius:5px;
+         display:inline-block;
+         margin-left:10%;
+         margin-right:2%;
+         padding:10px;
+         margin-bottom:50px;
+         
+     }
+     .Blockchain{
+         width:35%;
+         height:30px;
+         border-left:5px solid lightgrey;
+         background:white;
+         border-radius:5px;
+         display:inline-block;
+         padding:10px;
+          margin-left:2%;
+         margin-right:5%;
+         margin-bottom:50px;
+        
+     }
+     .waitlist
+     {
+         display:inline-block;
+         text-align:center;
+         margin-left:40%;
+         margin-right:35%;
+         background-color:orange;
+         padding-top:10px;
+         padding-bottom:10px;
+         padding-left:20px;
+         padding-right:20px;
+         font-weight:bold;
+         margin-bottom:1%;
+         color:white;
+         
+     }
+     .IITS{
+       
+        text-align:center;
+         font-size:12px;
+     }
+  

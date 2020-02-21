@@ -1,0 +1,39 @@
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css?family=Monofett|Monoton|Oswald|Roboto&display=swap');
+     .Contact{
+       font-weight:normal;
+       font-family:"Roboto";
+       margin-bottom:40px;
+       margin-left:10%;
+     }
+     .border{
+       border-bottom:2px solid blue;
+     }
+     .Content{
+       font-weight:bold;
+       font-size:20px;
+       margin-bottom:20px;
+       margin-left:10%;
+     }
+     .Follow{
+       color:blue;
+       text-align:center;
+       font-size:40px;
+     }
+     .images{
+         width:50px;
+         height:50px;
+         display:inline-block;
+         margin-right:10%;
+         transform: rotate3d(30deg 30deg 30deg 30);
+     }
+     .facebook{
+         margin-left:5%;
+     }
+     .insta{
+          width:50px;
+         height:50px;
+         display:inline-block;
+         margin-right:0%;
+     }
+   

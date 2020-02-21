@@ -23,4 +23,11 @@
       body{
           background:lightgrey;
       }
+      .middle{
+          margin-left:30%;
+          margin-right:30%;
+          height:440px;width:40%;
+          display:inline-block;
+          background-color:white;
+      }
     

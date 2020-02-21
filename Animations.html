@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.c{
+  opacity:1.0;
+filter: grayscale(100%);
+display:inline-block;
+}
+
+.c1{
+  display:inline-block;
+  filter: grayscale(50%);
+}
+.c2{
+  display:inline-block;
+  filter: sepia(100%);
+}
+.c3{
+  display:inline-block;
+  filter:drop-shadow(8px 8px 10px green);;
+}
+.c4{
+  display:inline-block;
+  filter:contrast(180%) ;
+}
+.c5{
+  display:inline-block;
+  filter: blur(4px);
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+
+<p>
+<img class="c "src="20171225_215757-2.jpg" width="200" height="200">&nbsp;
+<img class="c1" src="20171225_215757-2.jpg" width="200" height="200">&nbsp;
+<img class="c2" src="20171225_215757-2.jpg" width="200" height="200">&nbsp;
+<br>
+<img class="c3"src="20171225_215757-2.jpg" width="200" height="200">&nbsp;
+<img class="c4" src="20171225_215757-2.jpg" width="200" height="200">&nbsp;
+<img class="c5" src="20171225_215757-2.jpg" width="200" height="200">&nbsp;
+
+</p>
+<div></div>
+
+</body>
+</html>
