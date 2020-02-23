@@ -4,12 +4,17 @@
        font-weight:bold;
        text-align:center;
        font-family:"Roboto";
+       margin-bottom:25px;
      }
      .Paragraph{
+      padding-left:10%;
+      padding-right:10%;
        text-align:center;
+       margin-bottom:25px;
+       font-size:20px;
      }
      body{
-       background:lightblue;
+       background:aliceblue;
      }
      .Tech{
        display:inline-block;
@@ -144,12 +149,14 @@
      }
      .Comingsoon{
        font-size:10px; 
-       padding-left:359px;
-      margin-top:-1.5%;
+      margin-left:35.5%;
      }
      .pading{
       padding:0px;
       text-align:center;
+     }
+     .image{
+      float:right;
      }
  
  

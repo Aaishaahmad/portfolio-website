@@ -1,0 +1,36 @@
+/* Write your CSS here */
+ @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+    .total{
+      width:50%;
+       border:2px solid orange;
+       text-align:center;
+       font-family:"Roboto";
+    }
+    .child1{
+      width:90%;
+      box-sizing:border-box;
+      border:4px solid black;
+      margin-bottom:10px;
+      margin-left:5%;
+      margin-right:2%;
+      margin-top:30px;
+      padding:20%;
+      min-width:50%;
+    }
+    .child2{
+      width:50%;
+      border:4px  solid black;
+      padding:16px;
+      box-sizing:border-box;
+      display:inline-block;
+    }
+    .child3{
+      width:50%;
+      border:4px solid black;
+      padding:16px;
+      box-sizing:border-box;
+      display:inline-block;
+      
+    }
+  
+  
