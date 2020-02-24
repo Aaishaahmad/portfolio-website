@@ -1,17 +1,19 @@
 /* Write your CSS here */
    @import url('https://fonts.googleapis.com/css?family=Monofett|Monoton|Oswald|Roboto&display=swap');
      .Heading2{
+      margin-top:25px;
        font-weight:bold;
        text-align:center;
        font-family:"Roboto";
        margin-bottom:25px;
+       font-size:20px;
      }
      .Paragraph{
-      padding-left:10%;
-      padding-right:10%;
+      padding-left:13%;
+      padding-right:17%;
        text-align:center;
-       margin-bottom:25px;
-       font-size:20px;
+       margin-bottom:45px;
+       font-size:18px;
      }
      body{
        background:aliceblue;
@@ -58,43 +60,45 @@
          display:inline-block;
          width:29%;
          height:30px;
-         border-left:5px solid blue;
+         border-left:4px solid blue;
          margin-right:2%;
          background:white;
          border-radius:5px;
          padding:10px;
-    
+         font-weight:bold;
          
      }
      .AIML{
          width:29%;
          height:30px;
-         border-left:5px solid blue;
+         border-left:4px solid blue;
          background:white;
          border-radius:5px;
          display:inline-block;
          padding:10px;
+          font-weight:bold;
      }
      .VR{
           width:29%;
          height:30px;
-         border-left:5px solid lightgrey;
+         border-left:4px solid lightgrey;
          background:white;
          border-radius:5px;
          display:inline-block;
+         font-weight:bold;
          padding:10px;
-         margin-right:2%;
+          margin-right:2%;
      }
      .Iot
      {
          width:29%;
          height:30px;
-         border-left:5px solid lightgrey;
+         border-left:4px solid lightgrey;
          background:white;
          border-radius:5px;
          display:inline-block;
-         padding:10px;
-     }
+          font-weight:bold;
+          padding:10px}
      .Cyber{
          width:35%;
          height:30px;
@@ -104,8 +108,9 @@
          display:inline-block;
          margin-left:10%;
          margin-right:2%;
-         padding:10px;
          margin-bottom:50px;
+          padding:10px;
+          font-weight:bold;
          
      }
      .Blockchain{
@@ -115,9 +120,10 @@
          background:white;
          border-radius:5px;
          display:inline-block;
-         padding:10px;
          margin-right:5%;
          margin-bottom:50px;
+          padding:10px;
+          font-weight:bold;
         
      }
      .waitlist
