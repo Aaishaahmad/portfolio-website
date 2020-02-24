@@ -1,7 +1,7 @@
 /* Write your CSS here */
  @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
     .total{
-      width:50%;
+      width:500px;
        border:2px solid orange;
        text-align:center;
        font-family:"Roboto";
@@ -14,20 +14,20 @@
       margin-left:5%;
       margin-right:2%;
       margin-top:30px;
-      padding:20%;
+      padding:40px;
       min-width:50%;
     }
     .child2{
       width:50%;
       border:4px  solid black;
-      padding:16px;
+      padding:40px;
       box-sizing:border-box;
       display:inline-block;
     }
     .child3{
       width:50%;
       border:4px solid black;
-      padding:16px;
+      padding:40px;
       box-sizing:border-box;
       display:inline-block;
       

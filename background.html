@@ -4,24 +4,41 @@
         <meta charset="utf-8">
         <style>
            .image{
+               background-image: url(static/Backgrounds/bg1.png);
+                background-size:cover;
+                background-repeat:no-repeat;
                display:inline-block;
-               height:400px;
-               width:400px;
-               border:12px dashed blue;
-               background-image:linear-gradient(violet,indigo,blue,green,yellow,orange,red);
-              -webkit-clip-path:polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
-           }
+               width:200px;height:100px;cde
+              box-shadow: 10px 10px grey;
+                }
            .image1{
-                display:inline-block;
-               height:400px;
-               width:400px;
-               background-image:url(static/Backgrounds/bg1.png);
-               -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-           }
+               background-image: url(static/Backgrounds/bg1.png);
+                background-size:cover;
+                background-repeat:no-repeat;
+               display:inline-block;
+               width:200px;height:200px;
+               background-position:center;
+               
+                }
+                .image2{
+                    background-image: url(static/Backgrounds/bg1.png);
+                background-size:cover;
+                background-repeat:no-repeat;
+               display:inline-block;
+               width:100px;height:200px;
+               background-position:left;
+               
+                }
+                .cat{
+                    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+                    font-size:30px;
+                    text-align:center;
+                }
 
           </style>
     </head>
     <body>
+        <p class="cat">My MEOWWWWWWWWW</p>
         <div class="image">
             U are only the one who can change yourself.
             No one can do it for you
@@ -30,5 +47,10 @@
             U are only the one who can change yourself.
             No one can do it for you
         </div>
+        <div class="image2">
+            U are only the one who can change yourself.
+            No one can do it for you
+        </div>
+    
     </body>
 </html>
