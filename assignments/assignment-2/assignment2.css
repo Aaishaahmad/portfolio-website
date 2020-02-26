@@ -1,11 +1,11 @@
 /* Write your CSS here */
-     #h1{
+     #firstblock{
         display:block;width:100%;
         height:70px;
             margin-bottom:10px;
         background:darkslateblue;
       }
-      .p1{
+      .secondblock{
         display:inline-block;
         height:70px;
         width:49%;
@@ -14,7 +14,7 @@
             margin-bottom:10px;
         background-color:lightblue;
       }
-       .sb{
+       .secondsubblock{
         display:inline-block;
         height:70px;
         width:49%;
@@ -22,7 +22,7 @@
         margin-bottom:10px;
         background-color:lightblue;
       }
-      .p2{
+      .thirdblock{
         display:inline-block;
         width:32%;
         height:60px;
@@ -30,7 +30,7 @@
         background:darkslateblue;
         margin-right:2%;
       }
-      .lb{
+      .thirdsubblock{
          display:inline-block;
         width:32%;
         height:60px;
@@ -38,7 +38,7 @@
         background:darkslateblue;
       }
      
-      .p3{
+      .fourthblock{
          display:inline-block;
         height:50px;
         width:23.5%;
@@ -46,21 +46,21 @@
         margin-bottom:10px;
         background-color:lightblue;
       }
-      .sb1{
+      .fourthsubblock{
          display:inline-block;
         height:50px;
         width:23.5%;
         margin-bottom:10px;
         background-color:lightblue;
       }
-      .p4{
+      .fifthblock{
            display:inline-block;
         width:6.5%;
         height:50px;
         background:darkslateblue;
         margin-right:2%;
       }
-      .sb2{
+      .fifthsubblock{
             display:inline-block;
         width:6.5%;
         height:50px;

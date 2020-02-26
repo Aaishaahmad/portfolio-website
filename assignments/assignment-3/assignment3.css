@@ -1,25 +1,25 @@
 /* Write your CSS here */
 @import url('https://fonts.googleapis.com/css?family=Monofett|Monoton|Oswald|Roboto&display=swap');
-.d1{
+.Forblock{
           background-color:white;
          width:30%;
        display:inline-block;
       margin-right:5%;
       border-radius:20px;
       }
-      .h1{
+      .Title{
         color:Dodgerblue;
       }
-      .s1{
+      .subtitle{
         font-family:"Roboto";
       }
-      .d3{
+      .Forblock3{
         border-radius:20px;
           background-color:white;
          width:30%;
        display:inline-block;
       }
-      .p1{
+      .forpaddingblocks{
         padding-left:10px;
       }
       .my{
@@ -28,7 +28,7 @@
       .border{
          border-bottom:2px solid Dodgerblue;
       }
-      #body{
+      body{
         background-color:lightgrey;
       }
     

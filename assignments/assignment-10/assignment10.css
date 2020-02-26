@@ -1,1 +1,22 @@
-/* Write your CSS here */
+  body{
+      background:lightgrey;
+    }
+      .image{
+        width:527px;
+        height:350px;
+        display:inline-block;
+        border:10px solid white;
+      }
+      .frame{
+       display:inline-block;
+        width:200px;
+        height:200px;
+        border:20px solid orange;
+        margin-top:-90%;
+        margin-bottom:9%;
+        margin-right:2%;
+          }
+          .imagecenter{
+            text-align:center;
+          }
+  /* Write your CSS here */
