@@ -21,12 +21,12 @@
 
     background:Dodgerblue;
     text-align:center;
-    margin-bottom:20px;
+    
 }
 .cse{
     font-weight:bold;
     font-size:20px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 .IIIT{
     margin-bottom:20px;
@@ -47,5 +47,4 @@
     }
 .backcolor{
     background:whitesmoke;
-    margin-bottom:20px;
 }
