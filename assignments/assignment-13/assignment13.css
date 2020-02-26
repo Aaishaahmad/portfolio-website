@@ -18,7 +18,7 @@
     padding-bottom:20px;
 }
 .heading{
-
+    padding-top:20px;
     background:Dodgerblue;
     text-align:center;
     
@@ -27,6 +27,7 @@
     font-weight:bold;
     font-size:20px;
     margin-bottom: 20px;
+    padding-top:20px;
 }
 .IIIT{
     margin-bottom:20px;
