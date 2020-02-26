@@ -1,0 +1,51 @@
+.year{
+    text-align:center;
+    padding-bottom:20px;
+    color:white;
+}
+.Degree{
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    
+    font-size:20px;
+}
+.Degree1{
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    font-size:20px;
+    padding-bottom:20px;
+}
+.heading{
+
+    background:Dodgerblue;
+    text-align:center;
+    margin-bottom:20px;
+}
+.cse{
+    font-weight:bold;
+    font-size:20px;
+    margin-bottom:20px;
+}
+.IIIT{
+    margin-bottom:20px;
+}
+.content{
+    padding-left:30px;
+    background:#dcdcdc;
+    
+}
+.my{
+        font-weight:normal;
+      }
+      .borde{
+         border-bottom:2px solid Dodgerblue;
+      }
+    .space{
+        margin-bottom:50px;
+    }
+.backcolor{
+    background:whitesmoke;
+    margin-bottom:20px;
+}
