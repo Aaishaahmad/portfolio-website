@@ -1,1 +1,64 @@
+.firstrow1-6parts {
+      height: 50px;
+      width: 100px;
+      background: #09885a;
+    }
 
+    .firstrow2-6parts {
+      height: 50px;
+      width: 100px;
+      background: #5a57bb;
+
+    }
+
+    .firstrow3parts {
+      background: #4a86e8;
+      height: 50px;
+      width: 100px;
+    }
+
+    .second9parts {
+      height: 50px;
+      width: 100px;
+      background: #ff9900;
+    }
+
+    .third1-3parts {
+      height: 50px;
+      width: 100px;
+      background: #09885a;
+
+    }
+
+    .third2-3parts {
+      height: 50px;
+      width: 100px;
+      background: #5a57bb;
+
+    }
+
+    .third3-3parts {
+      height: 50px;
+      width: 100px;
+      background: #09885a;
+
+    }
+
+    .halfcolor1 {
+      height: 25px;
+      width: 100px;
+      background: #4a86e8;
+    }
+
+    .halfcolor2 {
+      height:25px;
+      width: 100px;
+      background: #5a57bb;
+    }
+    .third3part{
+      height:50px;
+      width:100px;
+        background: #5a57bb;
+  
+    }
+  

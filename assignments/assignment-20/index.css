@@ -51,13 +51,12 @@
       .changelocation{
          background-image:linear-gradient(to right,#72edf2 10%,#5151e5 100%);
          border-radius:20px;
-         padding-left:10%;
-         padding-right:10%;
-         padding-top:5px;
-         padding-bottom:5px;
-         font-size:10px;
+        font-size:30px;
          margin-top:5px;
-         display:inline-block;
+         /*padding-left:10px;*/
+         /*padding-right:10px;*/
+         padding-top:15px;
+         padding-bottom:0.1px;
       }
       .totalblack{
         background-color:whitesmoke;
@@ -67,5 +66,8 @@
       }
       .marginforsun{
         margin-top:15%;
+      }
+      .paddingtop{
+        padding-top:10%;
       }
       
