@@ -1,1 +1,58 @@
-
+ .heading {
+      font-weight: normal;
+      font-size: 18px;
+      text-align: center;
+      padding-top:16px;
+      /*margin-left:20%;*/
+      /*margin-right:10%;*/
+    }
+    .firstheading{
+      font-weight: normal;
+      font-size: 38px;
+      text-align: center;
+      padding-top:10px;
+      padding-bottom:10px;
+    
+    }
+    .aligncenter {
+      text-align: center;
+      padding:15px;
+      margin-bottom:10px;
+    }
+    .font{
+      font-size:14px;
+    }
+    body{
+      background:whitesmoke;
+    }
+    .margincard{
+      margin-bottom:10px;
+    }
+    .margintop{
+      margin-top:10px;
+    }
+    .Connect{
+      display:inline-block;
+      padding:10px;
+      text-align:center;
+      color:white;
+      background:#1ac6ff;
+    }
+    .image{
+      margin-top:20px;
+      height:80px;
+      width:80px;
+    }
+    
+    .aligncenter1{
+       text-align: center;
+      padding:5px;
+    margin-bottom:10px;
+  
+    }
+  .margintop{
+    margin-top:10px;
+  }
+  .minheight{
+    min-height:10px;
+  }
