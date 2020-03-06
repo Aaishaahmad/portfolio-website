@@ -1,1 +1,132 @@
-
+.topbar{
+        background:black;
+      }
+      .signup{
+        display:inline-block;
+        margin-left:50%;
+        margin-bottom:1%;
+      }
+      .imagebackground{
+        border-radius:50%;
+        background:white;
+        -webkit-filter:invert(100%);
+        
+      }
+      .center{
+        text-align:center;
+      }
+      .Subtopics{
+        display:inline-block;
+        margin-right:4%;
+        padding-bottom:4%;
+        
+      }
+      .bottomborder{
+        border-bottom:4px solid blue;
+      
+      }
+      .imageheading{
+        margin-bottom:10px;
+        height:100px;
+        width:100px;
+      }
+      .marginforcontainer{
+        margin-bottom:50px;
+      }
+      .yashtag{
+        text-align:center;
+        font-size:25px;
+        padding-left:25px;
+        padding-right:25px;
+        padding-top:15px;
+        padding-bottom:15px;
+        background:aliceblue;
+        margin-right:3%;
+        display:inline-block;
+      }
+      .star{
+        display:inline-block;
+        background:whitesmoke;
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:5px;
+        padding-bottom:5px;
+        border:1px solid lightgrey;
+        font-weight:bold;
+        border-radius:5px;
+      }
+      .lineheight{
+       line-height:4px; 
+       font-size:20px;
+       display:inline-block
+      }
+      .starmargin
+      {
+        margin-bottom:-1%;
+      }
+      .taginline{
+        display:inline-block;
+      }
+      .image{
+        width:80px;
+        height:80px;
+      }
+      .loadmore{
+        text-align:center;
+        border:1px solid lightgrey;
+        color:Dodgerblue;
+        font-weight:bold;
+        padding-top:5px;
+        padding-bottom:5px;
+        margin-bottom:10%;
+      }
+      .footer{
+        display:inline-block;
+        background:aliceblue;
+        padding:0px;
+        color:Dodgerblue;
+        margin-left:1%;
+      }
+      .footerpadding{
+        padding-left:0px;
+        margin-left:-6%;
+      }
+      .navcolor{
+        color:white;
+      }
+      .signin{
+        margin-right:10px;
+        margin-left:0px;
+        
+      }
+      .search{
+        background:gray;
+      }
+      .star1{
+        text-align:right;
+        display:inline-block;
+        background:whitesmoke;
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:5px;
+        padding-bottom:5px;
+        border:1px solid lightgrey;
+        font-weight:bold;
+        border-radius:5px;
+    
+      }
+      .searchbar{
+        width:2px;
+        height:2px;
+      }
+    .tooglebar{
+      display:inline-block;
+       width:40px;
+        height:40px;
+        margin-left:-5%;
+         }
+        .align{
+          text-align:right;
+          margin-top:-10px;
+          
+        }

@@ -1,114 +1,702 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="stylesheet" href="../../bootstrap/bootstrap.min.css" />
-    <script src="../../bootstrap/jquery.min.js"></script>
-    <script src="../../bootstrap/popper.min.js"></script>
-    <script src="../../bootstrap/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <style>
-      .topbar{
-        background:black;
-      }
-      .signup{
-        text-align:right;
-      }
-      .imagebackground{
-        
-        border-radius:50%;
-        background:white;
-        
-      }
-      .center{
-        text-align:center;
-      }
-      .Subtopics{
-        display:inline-block;
-        margin-right:4%;
-        padding-bottom:4%;
-        
-      }
-      .bottomborder{
-        border-bottom:4px solid blue;
-      
-      }
-      .imageheading{
-        margin-bottom:10px;
-        height:100px;
-        width:100px;
-      }
-      .marginforcontainer{
-        margin-bottom:50px;
-      }
-    </style>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="../../bootstrap/bootstrap.min.css" />
+  <script src="../../bootstrap/jquery.min.js"></script>
+  <script src="../../bootstrap/popper.min.js"></script>
+  <script src="../../bootstrap/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
 
-  <body>
-    <div class="container">
-      <div class="row ">
-        <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-xl-none topbar">
-        <p><img  class="imagebackground"src="assets/github-logo.svg" alt="github-logo.svg"></p>
-      </div>
-       <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-xl-none signup topbar">
-         <button type="button" class="btn btn-outline-light">Sign up</button>
-      </div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-xl-none">
-      <h4 class="center">Explore</h4>
-      </div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-xl-none center">
-      <div class="Subtopics bottomborder">Topics</div>
-      <div class="Subtopics">Trending</div>
-      <div class="Subtopics">Collections</div>
-      <div class="Subtopics">Events</div>
-    </div>
+<body>
+  <div class="container">
+    <div class="row ">
+      <div class="col-12 col-sm-12 col-md-12 d-lg-none  d-xl-none topbar">
+        <nav class="navbar navbar-dark">
+          <img  class="imagebackground"src="assets/github-logo.svg">
+         <span class="signup"><button type="button " class="btn btn-outline-light">Signup</button></span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
   </div>
   </div>
-    <div class= "shadow-none p-3 mb-5 bg-light rounded center">
-      <h1>Topics</h1>
-      <p>Browse popular topics on github</p>
+        <div class="d-none  d-sm-none d-md-none d-lg-block d-xl-block col-lg-12  col-xl-12 navcolor">
+          <nav class="navbar navbar-expand-lg color-light bg-dark">
+            <div><img class="imagebackground" src="assets/github-logo.svg" alt="github-logo.svg"></div>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle navcolor"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+          Why GitHub?</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+              </div>
+            </li>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link navcolor" href="#">Enterprise</a>
+                </li>
+                <li class="nav-item dropdown navcolor">
+                  <a class="nav-link dropdown-toggle navcolor" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Explore
+        </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item navcolor" href="#">Action</a>
+                    <div class="dropdown-divider "></div>
+                  </div>
+                </li>
+
+                </li>
+                <li class="nav-item activ">
+                  <a class="nav-link navcolor" href="#">MarketPlace</a>
+                </li>
+                <li class="nav-item dropdown navcolor">
+                  <a class="nav-link dropdown-toggle navcolor" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Pricing</a>
+                </li>
+              <form class="form-inline">
+                <input class="search" type="search" placeholder="SearchGithub" aria-label="Search">
+                <div class="signin">Sign in</div>
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Sign up</button>
+              </form>
+              </ul>
+            </div>
+          </nav>
       </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 d-xl-none center marginforcontainer ">
-          <div class="card h-100">
-          <p><img  class="imageheading"src="assets/opengl.png" alt="opengl.png"</p>
-          <h6>OpenGL</h6>
-          <p>OpenGL is a software interface that allows a programmer to communicte 
-          with graphics hardware</p>
+        <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none">
+          <h4 class="center">Explore</h4>
         </div>
+        <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none center">
+          <div class="Subtopics bottomborder">Topics</div>
+          <div class="Subtopics">Trending</div>
+          <div class="Subtopics">Collections</div>
+          <div class="Subtopics">Events</div>
         </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 d-xl-none center marginforcontainer">
-          <div class="card h-100">
-          <p><img  class="imageheading"src="assets/flask.png" alt="flask.png"</p>
-          <h6>OpenGL</h6>
-          <p>Flask is a web framework for python based on the Werkzeug tolkit</p>
+        <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block col-md-12 col-lg-12 col-xl-12">
+          <div class="Subtopics">Explore</div>
+          <div class="Subtopics bottomborder">Topics</div>
+          <div class="Subtopics">Trending</div>
+          <div class="Subtopics">Collections</div>
+          <div class="Subtopics">Events</div>
         </div>
-        </div>
-         <div class="col-12 col-sm-12 col-md-4 col-lg-4 d-xl-none center marginforcontainer">
-           <div class="card h-100">
-          <p><img  class="imageheading"src="assets/gradle.png" alt="gradle.png"</p>
-          <h6>OpenGL</h6>
-          <p>Flask is a web framework for python based on the Werkzeug tolkit</p>
-        </div>
-       </div>
-       <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-xl-none marginforcontainer">
-         <h5>All Featured topics</h5>
-         </div>
-        <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none marginforcontainer">
-        
-        </div>
-        
-    
-    
-    
-    
-      </div>
     </div>
-    
-  </body>
+  </div>
+  </header>
+  <div class="shadow-none p-3 mb-5 bg-light rounded center">
+    <h1>Topics</h1>
+    <p>Browse popular topics on github</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 center marginforcontainer ">
+        <div class="card h-100">
+          <p><img class="imageheading" src="assets/opengl.png" alt="opengl.png" </p>
+            <h6>OpenGL</h6>
+            <p>OpenGL is a software interface that allows a programmer to communicte with graphics hardware</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 center marginforcontainer">
+        <div class="card h-100">
+          <p><img class="imageheading" src="assets/flask.png" alt="flask.png" </p>
+            <h6>OpenGL</h6>
+            <p>Flask is a web framework for python based on the Werkzeug tolkit</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 center marginforcontainer">
+        <div class="card h-100">
+          <p><img class="imageheading" src="assets/gradle.png" alt="gradle.png" </p>
+            <h6>OpenGL</h6>
+            <p>Flask is a web framework for python based on the Werkzeug tolkit</p>
+        </div>
+      </div>
+      <!--Code for small,extra small-->
+      <div class="col-12 col-sm-12 d-md-none  d-xl-none marginforcontainer">
+        <h5>All Featured topics</h5>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none col-lg-12 d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div class="yashtag">#</div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none">
+            <h6 class="lineheight">3D</h6>
+            <p class="starmargin">3D modeeling is the process of vituality developing the surface and structure of a 3D object</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none col-lg-12 d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div class="yashtag">#</div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none">
+            <h6 class="lineheight">Ajax</h6>
+            <p class="starmargin">Ajax is a modeeling is the process of vituality developing the surface and structure of a 3D object</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div class="yashtag">#</div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">Algorithms</h6>
+            <p class="starmargin">Algotithns are self-contained sequences that carry out a variety of tasks</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div><img class="image" src="assets/amphp.png" alt="amphp.png"></div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">Amp</h6>
+            <p class="starmargin">Amp is a non-blocking concurrency framework for PHP</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div><img class="image" src="assets/android.png" alt="android.png"></div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">Android</h6>
+            <p class="starmargin">Android is an operating system built by Google designed for mobile devices</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div><img class="image" src="assets/angular.png" alt="amgular.png"></div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">Angular</h6>
+            <p class="starmargin">Angular is an open source web application platform</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div><img class="image" src="assets/ansible.png" alt="ansible.png"></div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">Ansible</h6>
+            <p class="starmargin">Asible is a simple source web application platform</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div class="yashtag">#</div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">API</h6>
+            <p class="starmargin">An API(Application Programming interface) is a collection of protocols and subroutines for building software</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div><img class="image" src="assets/arduino.png" alt="arduino.png"></div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">Arduino</h6>
+            <p class="starmargin">Arduino is an open source hardware and software company and maker community</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none  d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div><img class="image" src="assets/aspnet.png" alt="aspnet.png"></div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">ASP.NET</h6>
+            <p class="starmargin">ASP.NET is a web framework for building modern web apps and service</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div><img class="image" src="assets/atom.png" alt="atom.png"></div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">Atom</h6>
+            <p class="starmargin">Atom is a open sourcer text editor built with web technologies</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div><img class="image" src="assets/awesome.png" alt="awesome.png"></div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">Awesome Lists</h6>
+            <p class="starmargin">An awesome list is a list of awesome things curated by the community</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div><img class="image" src="assets/aws.png" alt="aws.png"></div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">Amazon Web services</h6>
+            <p class="starmargin">Amazon Web Services provides on-demand cloud computing platforms on a subscription basis</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none  d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div><img class="image" src="assets/azure.png" alt="azure.png"></div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">Azure</h6>
+            <p class="starmargin">Azure is a cloud computing platform created by microsoft</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-12 col-sm-12 d-md-none  d-xl-none ">
+        <div class="row">
+          <div class="col-3 col-sm-3 d-md-none d-lg-none d-xl-none ">
+            <div class="yashtag">#</div>
+          </div>
+          <div class="col-9 col-sm-9 d-md-none d-lg-none d-xl-none ">
+            <h6 class="lineheight">Mobile</h6>
+            <p class="starmargin">Mobile apps,mobile OS,mobile databases,& mobile testing frameworks</p>
+            <div class="star"><img src="assets/star.svg" alt="star.svg"> Star</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <!--completion of extra small-->
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12 col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div class="yashtag">#</div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">3D</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+
+            <p class="starmargin">3D modeeling is the process of vituality developing the surface and structure of a 3D object</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="d-none d-lg-block col-lg-3 col-xl-3 d-xl-block">
+        <h5>Popular topics</h5>
+        <ul class="list-group-horizontal footerpadding">
+          <li class="footer">react</li>
+          <li class="footer">javascript</li>
+          <li class="footer">css</li>
+        </ul>
+        <ul class="list-group-horizontal footerpadding">
+          <li class="footer">python</li>
+          <li class="footer">html</li>
+          <li class="footer">ecommerce</li>
+        </ul>
+      </div>
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div class="yashtag">#</div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Ajax</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+            <p class="starmargin">Ajax is a technique for creative interactive web applications </p>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="d-none d-lg-block col-lg-3 col-xl-3 d-xl-block">
+        <ul class="list-group-horizontal footerpadding">
+          <li class="footer">python3</li>
+          <li class="footer">ecomerce platform<br></li>
+        </ul>
+        <ul class="list-group-horizontal footerpadding">
+          <li class="footer">nci-itcr</li>
+          <li class="footer">solidus extensions</li>
+        </ul>
+      </div>
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12 col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div class="yashtag">#</div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Algorithm</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+
+            <p class="starmargin">Algorithms are self-contained sequeces that carry out a variety of tasks </p>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div><img class="image" src="assets/amphp.png" alt="amphp.png"></div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Amp</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+            <p class="starmargin">Amp is a non-blocking concurrency framework for PHP </p>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div><img class="image" src="assets/android.png" alt="android.png"></div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Android</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+
+            <p class="starmargin">Android is an operating system built by Google designed for mobile devices </p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div><img class="image" src="assets/angular.png" alt="amgular.png"></div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Angular</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+            <p class="starmargin">Angular is an open source web application platform</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div><img class="image" src="assets/ansible.png" alt="ansible.png"></div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Ansible</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+
+            <p class="starmargin">Ansible is a simple and powerful automation engine </p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div class="yashtag">#</div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">API</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+            <p class="starmargin">An API(Application Programming interface) is a collection of protocols and subroutines for building software</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div><img class="image" src="assets/arduino.png"></div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Arduino</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+            <p class="starmargin">Arduino is an open source hardware and software company and maker community</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div><img class="image" src="assets/aspnet.png" alt="aspnet.png"></div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">ASP.NET</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+            <p class="starmargin">ASP.NET is a web framework for building modern web apps and services </p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div><img class="image" src="assets/atom.png" alt="atom.png"></div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Atom</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+            <p class="starmargin">Atom is a open souce text editor built with web technologies</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div><img class="image" src="assets/awesome.png" alt="awesome.png"></div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Awesome Lists</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+            <p class="starmargin">An awesome list is a awesome things curated by the community</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div><img class="image" src="assets/aws.png"></div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Amazon Web Services</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+            <p class="starmargin">Amazon web services provides on-demand cloud computing platform in a subscrption basis</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div><img class="image" src="assets/azure.png"></div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Azure</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+            <p class="starmargin">Azure is a cloud computing service created by Microsoft</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block  col-md-12  col-lg-9 col-xl-9 ">
+        <div class="row">
+          <div class=" col-md-3 col-lg-3 col-xl-3">
+            <div class="yashtag">#</div>
+          </div>
+          <div class="col-md-9 col-lg-9 col-xl-9 ">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xl-6">
+                <h6 class="lineheight">Mobile</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xl-6" style="text-align:right">
+                <div class="star1"><img src="assets/star.svg" alt="star.svg"> Star</div>
+              </div>
+            </div>
+            <p class="starmargin">Mobile apps,mobile OS,mobile databases,& mobile testing frameworks</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <!--code completed for large-->
+
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+        <div class="loadmore">Load more...</div>
+      </div>
+      <footer>
+        <div class="col-12 col-sm-12 col-md-12 d-lg-none d-xl-none ">
+          <h5>Popular topics</h5>
+        </div>
+        <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none footerpadding">
+          <ul class="list-group-horizontal">
+            <li class="footer">react</li>
+            <li class="footer">javascript</li>
+            <li class="footer">css</li>
+            <li class="footer">python</li>
+            <li class="footer">html</li>
+            <li class="footer">ecommerce</li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none footerpadding">
+          <ul class="list-group-horizontal">
+            <li class="footer">python</li>
+            <li class="footer">ecommerce platform</li>
+            <li class="footer">nci-itcr</li>
+            <li class="footer">solidus extensions</li>
+          </ul>
+        </div>
+
+        <div class="d-none d-sm-none col-md-12 d-md-block d-lg-none d-xl-none footerpadding">
+          <ul class="list-group-horizontal">
+            <li class="footer">react</li>
+            <li class="footer">javascript</li>
+            <li class="footer">css</li>
+          </ul>
+        </div>
+        <div class="d-none d-sm-none col-md-12  d-md-block d-lg-none d-xl-none footerpadding">
+          <ul class="list-group-horizontal">
+            <li class="footer">python</li>
+            <li class="footer">html</li>
+            <li class="footer">ecommerce</li>
+          </ul>
+        </div>
+        <div class="d-none d-sm-none col-md-12  d-md-block d-lg-none d-xl-none footerpadding">
+          <ul class="list-group-horizontal">
+            <li class="footer">python3</li>
+            <li class="footer">ecomerce platform</li>
+          </ul>
+        </div>
+        <div class="d-none d-sm-none col-md-12  d-md-block d-lg-none d-xl-none footerpadding">
+          <ul class="list-group-horizontal">
+            <li class="footer">nci-itcr</li>
+            <li class="footer">solidus extensions</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+</body>
+
 </html>
