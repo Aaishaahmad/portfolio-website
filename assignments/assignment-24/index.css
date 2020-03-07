@@ -3,23 +3,26 @@
       }
       .signup{
         display:inline-block;
-        margin-left:50%;
-        margin-bottom:1%;
+        margin-top:1%;
       }
       .imagebackground{
         border-radius:50%;
         background:white;
         -webkit-filter:invert(100%);
+        margin-right:50%;
         
       }
+      .imagebackground1{
+        background:white;
+        -webkit-filter:invert(100%);
+      }
+     
       .center{
         text-align:center;
       }
       .Subtopics{
-        display:inline-block;
+        display:inline;
         margin-right:4%;
-        padding-bottom:4%;
-        
       }
       .bottomborder{
         border-bottom:4px solid blue;
@@ -95,12 +98,13 @@
         color:white;
       }
       .signin{
-        margin-right:10px;
-        margin-left:0px;
+        margin-right:5px;
+        margin-left:5px;
         
       }
       .search{
         background:gray;
+        margin-left:0px;
       }
       .star1{
         text-align:right;
@@ -121,12 +125,18 @@
       }
     .tooglebar{
       display:inline-block;
-       width:40px;
-        height:40px;
-        margin-left:-5%;
+       width:30px;
+        height:30px;
+        margin-left:10px;
          }
         .align{
           text-align:right;
           margin-top:-10px;
           
+        }
+        .right-align{
+          text-align:right;
+        }
+        .exploremargin{
+          margin-left:-25%;
         }

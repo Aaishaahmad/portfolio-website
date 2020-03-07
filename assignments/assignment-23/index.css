@@ -36,12 +36,12 @@
   
     }
     .ex-image{
-      height:200px;
-      width:300px;
+      height:400px;
+      width:100%;
     }
     .instantly-mobile{
       height:400px;
-      width:40%;
+      width:100%;
       text-align:center;
     }
     .marginforcontainer
@@ -82,7 +82,7 @@
    }
    .landing-desktop{
      width:100%;
-     height:300px;
+     height:400px;
    }
    .ex-desktop{
      width:100%;
