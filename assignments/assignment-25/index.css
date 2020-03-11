@@ -1,0 +1,114 @@
+.website-title {
+      font-weight: bold;
+    }
+  .padding-for-title{
+    padding-top:15px;
+  }
+
+    .b-icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    .Header {
+      color: blue;
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .rightalign {
+      text-align: right;
+    }
+
+    .backgroundimage {
+      background: url(assets/background.jpg) no-repeat;
+      width: 100%;
+      height: 700px;
+      background-size: cover;
+      
+    }
+
+    .thumbnail {
+      border-radius: 20px;
+      height: 100px;
+      width: 100px;
+    }
+
+    .Spatial {
+      font-weight: bold;
+    }
+
+    .div-for-text-image {
+      color: white;
+      text-align: center;
+      padding-left:25%;
+      padding-right:25%;
+      padding-top:25%;
+      padding-bottom:25%;
+    }
+.imageforsmallscreen{
+  height:300px;
+  width:100%;
+  margin-bottom:40px;
+}
+    .colorparagraph {
+      color: lightgrey;
+      font-size: 12px;
+    }
+
+    .margin-for-row {
+      margin-top: 4%;
+    }
+
+    .background-for-imagecard {
+      background: whitesmoke;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .font {
+      font-size: 12px;
+    }
+
+   .cardmargin{
+     margin-bottom:4%;
+   }
+   .nestedimages{
+     width:100%;
+     height:600px;
+     margin-bottom:20px;
+
+   }
+   .nestedimages1{
+     width:100%;
+     height:290px;
+     margin-bottom:20px;
+   }
+   .nestedimages2{
+     width:100%;
+     height:290px;
+     margin-bottom:20px;
+   }
+   .lists{
+     height:20px;
+     width:20px;
+     display:inline-block;
+     margin-right:1%;
+   }
+   .footer-color{
+     background:whitesmoke;
+     padding-top:20px;
+     padding-bottom:20px;
+   }
+   .padding-for-paragraph{
+     padding-top:5%;
+     padding-bottom:5%;
+   }
+   .opacity-for-image{
+     background-color:#00000050;
+     width:100%;
+     height:700px;
+     background-size:cover;
+   }

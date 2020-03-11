@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.approach{
+        font-size:40px;
+        text-align:center;
+        font-family:'Roboto';
+      }
+      .workforce{
+        font-size:30px;
+
+      }
+    .paragraph{
+      font-size:22px;
+    }
+
+@media screen and (max-width:767px)
+{
+  .medium{
+    display:none;
+  }
+}
+@media screen and (min-width:768px)
+{
+  .medium{
+    width:50%;
+    display:inline-block;
+    vertical-align:bottom;
+  }
+  .paragraph{
+    color:grey;
+  }
+  .small{
+    display:none;
+  }
+}

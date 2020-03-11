@@ -1,0 +1,70 @@
+ @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+ .Heading{
+     text-align:center;
+     font-size:40px;
+     font-family:'Roboto';
+ }
+ .extrasmallparagraph
+      {
+        background:orange;
+        margin-bottom:10px;
+        font-size:14px;
+        border:3px solid black;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:10px;
+  
+      }
+@media (min-width:576px)
+{
+    .extrasmallparagraph{
+        background:#00c8ff;
+        margin-bottom:20px;
+        font-size:16px;
+        border:3px dashed black;
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-left:10px;
+    }
+}
+@media(min-width:768px)
+{
+    .extrasmallparagraph{
+        background:#246caf;
+        margin-bottom:30px;
+        font-size:18px;
+        border:3px dotted black;
+        padding-top:30px;
+        padding-bottom:30px;
+        padding-left:10px;
+  
+    }
+}
+@media(min-width:1024px)
+{
+    .extrasmallparagraph{
+        background:#7985ff;
+        margin-bottom:40px;
+        font-size:20px;
+        border:3px solid black;
+        padding-top:40px;
+        padding-bottom:40px;
+        text-align:center;
+  
+    }
+}
+@media(min-width:1200px)
+{
+    
+    .extrasmallparagraph{
+         background:whitesmoke;
+        margin-bottom:50px;
+        font-size:22px;
+        padding-top:50px;
+        padding-bottom:50px;
+        text-align:center;
+        border:0px solid white;
+  
+    }
+}
