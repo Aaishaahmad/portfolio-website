@@ -1,0 +1,30 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.part-1{
+    width:100%;
+}
+.part-2{
+    width:100%;
+}
+.heading1{
+    font-size:40px;
+}
+.heading{
+    font-size:30px;
+}
+.paragraph-font{
+    font-size:20px;
+}
+@media screen and (min-width:768px)
+{
+    .part-1{
+        display:inline-block;
+        width:48%;
+    }
+    .part-2{
+        display:inline-block;
+        width:48%;
+    }
+}

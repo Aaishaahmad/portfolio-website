@@ -1,0 +1,19 @@
+.extra-large{
+    font-size:0px;
+}
+.paragraph-font{
+    font-size:20px;
+}
+.heading{
+    font-size:30px;
+}
+.heading1{
+    font-size:40px;
+}
+@media  screen and (min-width:768px)
+{
+    .extra-large{
+        font-size:20px;
+        background-color:grey
+    }
+}
