@@ -1,0 +1,406 @@
+.proimg {
+    width: 25%;
+    border: 1px solid black;
+
+}
+
+.introdiv {
+    background-color: black;
+    color: white;
+}
+
+.shadow {
+    text-shadow: 1px 1px white;
+}
+
+.align {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.color {
+    color: white;
+}
+
+.invert {
+    filter: invert(200);
+}
+
+a {
+    color: black;
+}
+
+.subimg {
+    display: block;
+    border: 2px solid black;
+    box-shadow: 20px 20px 20px;
+    width: 100%;
+    float: right;
+}
+
+.button {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 20%;
+}
+
+@media (max-width:767px) {
+    .ncol {
+        font-size: 14px;
+        color: white;
+    }
+    a {
+        font-size: 14px;
+    }
+    .intro {
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        font-style: Didot;
+    }
+    .heading {
+        margin-top: 5%;
+        text-align: right;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        padding-right: 10%;
+        text-shadow: 2px 2px white;
+    }
+    body {
+        height: 100%;
+        margin: 0;
+    }
+    .bg {
+        background-image:url("bg1.png");
+        height:100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .introrow {
+        width: 100%;
+        margin-top: 1%;
+    }
+
+    .introcol {
+        padding-left: 70%;
+        font-style: Didot;
+        text-shadow: 2px 2px white;
+
+    }
+    .navbar {
+        background-image: transparent;
+    }
+    .nav1 {
+        font-weight: bold;
+        font-size: 15px;
+        font-style: Didot;
+        color: black;
+    }
+    .togtext {
+        color: black;
+        font-style: Didot;
+    }
+    form {
+        margin-top: 30%;
+        border: 2px solid white;
+        height: 400px;
+        width: 300px;
+        text-align: center;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 160px #00b3ff,
+        0 0 320px #00b3ff;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .ncol {
+        font-size: 18px;
+        color: white;
+        font-style: Comic;
+    }
+    .intro {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        font-style: Comic;
+    }
+    body {
+        background-image: url("bg1.png");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    .introrow {
+        width: 100%;
+    }
+
+    .introcol {
+        padding-left: 7%;
+        font-style: Didot;
+        text-shadow: 2px 2px black;
+
+    }
+    .heading {
+        margin-top: 5%;
+        padding-left: 1%;
+        text-align: left;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        padding-right: 13%;
+        text-shadow: 2px 2px black;
+    }
+    .navbar {
+        background-image: transparent;
+    }
+    .nav1 {
+        font-weight: bold;
+        font-size: 20px;
+        font-style: Didot;
+        color: white;
+    }
+    .togtext {
+        color: white;
+        font-style: Didot;
+    }
+    form {
+        margin-top: 20%;
+        border: 2px solid white;
+        height: 400px;
+        width: 300px;
+        text-align: center;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 160px #00b3ff,
+        0 0 320px #00b3ff;
+    }
+
+
+
+
+}
+
+@media (min-width:992px) {
+    .ncol {
+        font-size: 18px;
+        color: white;
+    }
+    .intro {
+        color: grey;
+        font-weight: bold;
+        font-size: 40px;
+        font-style: fantasy;
+    }
+    .heading {
+        color: black;
+        font-size: 30px;
+    }
+    body {
+        height: 100%;
+        margin: 0;
+        
+    }
+    .bg {
+        height:100%;
+        background-image: url("bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .introrow {
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .introcol {
+        padding-left: 1%;
+        /*text-shadow: 2px 2px black;*/
+
+    }
+    .heading {
+        margin-top: 5%;
+        padding-left: 6%;
+        text-align: left;
+        font-size: 40px;
+        font-weight: bold;
+        padding-right: 13%;
+    }
+    .navbar {
+        background-image: transparent;
+    }
+    .nav1 {
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+    }
+    .togtext {
+        color: white;
+    }
+    form {
+        margin-top: 20%;
+        border: 2px solid white;
+        height: 400px;
+        width: 300px;
+        text-align: center;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 160px #00b3ff,
+        0 0 320px #00b3ff;
+    }
+
+
+}
+
+.animationrow {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #000;
+}
+
+.animationp {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+
+.bodyanimation {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: none;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #111;
+    font-size: 16em;
+
+}
+
+h1 span {
+    display: table-cell;
+    margin: 0;
+    padding-top: 8%;
+    padding-left: 2%;
+    animation: animate1 2s linear infinite;
+}
+
+h1 span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+h1 span:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+h1 span:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+h1 span:nth-child(4) {
+    animation-delay: 0.9s;
+}
+
+h1 span:nth-child(5) {
+    animation-delay: 1.2s;
+}
+
+@keyframes animate1 {
+    0%,
+    100% {
+        color: #fff;
+        filter: blur(2px);
+
+    }
+    5%,
+    95% {
+        color: #111;
+        filter: blur(0px);
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 160px #00b3ff,
+        0 0 320px #00b3ff;
+    }
+}
+
+/*nav {
+                background-image: url("images (5).jpeg");
+            }*/
+
+.cimage {
+    background-image: url("images (5).jpeg ")
+}
+
+.loginp {
+    color: white;
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.loginbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.loginimg {
+    background-image: url("images (13).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    border: 2px solid white;
+    box-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 160px #00b3ff,
+    0 0 320px #00b3ff;
+}
+.my_image{
+    border-radius:50%;
+    height:200px;
+    width:200px;
+}
+.center{
+    text-align:center;
+}
