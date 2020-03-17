@@ -1,7 +1,6 @@
-*{
-    padding:0px;
-    margin:0px;
-}
+ @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+
 .part-1{
     width:100%;
 }
@@ -10,6 +9,8 @@
 }
 .heading1{
     font-size:40px;
+    font-family:'Roboto';
+    text-align:center;
 }
 .heading{
     font-size:30px;
@@ -21,10 +22,12 @@
 {
     .part-1{
         display:inline-block;
-        width:48%;
+        width:49%;
+        vertical-align:top;
     }
     .part-2{
         display:inline-block;
-        width:48%;
+        width:49%;
+        vertical-align:top;
     }
 }
